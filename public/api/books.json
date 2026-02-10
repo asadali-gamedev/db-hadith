@@ -1,0 +1,215 @@
+{
+    "success": true,
+    "apiVersion": "1.0.0",
+    "totalBooks": 9,
+    "books": [
+        {
+            "id": "bukhari",
+            "name": "Sahih Bukhari",
+            "nameArabic": "صحيح البخاري",
+            "author": "Imam Bukhari",
+            "file": "bukhari.db",
+            "sizeBytes": 43753472,
+            "sizeMB": "41.7 MB",
+            "hadithCount": 7563,
+            "languages": [
+                "arabic",
+                "urdu",
+                "english",
+                "hindi",
+                "roman"
+            ],
+            "tables": [
+                "hadees",
+                "hadees_languages",
+                "tbl_Kitab",
+                "language"
+            ],
+            "downloadUrl": "https://github.com/asadali-gamedev/db-hadith/releases/download/v1.0.0/bukhari.db"
+        },
+        {
+            "id": "muslim",
+            "name": "Sahih Muslim",
+            "nameArabic": "صحيح مسلم",
+            "author": "Imam Muslim",
+            "file": "muslim.db",
+            "sizeBytes": 31555584,
+            "sizeMB": "30.1 MB",
+            "languages": [
+                "arabic",
+                "urdu",
+                "english",
+                "hindi",
+                "roman"
+            ],
+            "tables": [
+                "hadees",
+                "hadees_languages",
+                "tbl_Kitab",
+                "language"
+            ],
+            "downloadUrl": "https://github.com/asadali-gamedev/db-hadith/releases/download/v1.0.0/muslim.db"
+        },
+        {
+            "id": "abu_dawood",
+            "name": "Sunan Abu Dawood",
+            "nameArabic": "سنن أبي داود",
+            "author": "Imam Abu Dawood",
+            "file": "abu_dawood.db",
+            "sizeBytes": 29478912,
+            "sizeMB": "28.1 MB",
+            "languages": [
+                "arabic",
+                "urdu",
+                "english",
+                "hindi",
+                "roman"
+            ],
+            "tables": [
+                "hadees",
+                "hadees_languages",
+                "tbl_Kitab",
+                "language"
+            ],
+            "downloadUrl": "https://github.com/asadali-gamedev/db-hadith/releases/download/v1.0.0/abu_dawood.db"
+        },
+        {
+            "id": "tirmazi",
+            "name": "Jami at-Tirmidhi",
+            "nameArabic": "جامع الترمذي",
+            "author": "Imam Tirmidhi",
+            "file": "tirmazi.db",
+            "sizeBytes": 28258304,
+            "sizeMB": "26.9 MB",
+            "languages": [
+                "arabic",
+                "urdu",
+                "english",
+                "hindi",
+                "roman"
+            ],
+            "tables": [
+                "hadees",
+                "hadees_languages",
+                "tbl_Kitab",
+                "language"
+            ],
+            "downloadUrl": "https://github.com/asadali-gamedev/db-hadith/releases/download/v1.0.0/tirmazi.db"
+        },
+        {
+            "id": "nasai",
+            "name": "Sunan an-Nasai",
+            "nameArabic": "سنن النسائي",
+            "author": "Imam Nasai",
+            "file": "nasai.db",
+            "sizeBytes": 24100864,
+            "sizeMB": "23.0 MB",
+            "languages": [
+                "arabic",
+                "urdu",
+                "english",
+                "hindi",
+                "roman"
+            ],
+            "tables": [
+                "hadees",
+                "hadees_languages",
+                "tbl_Kitab",
+                "language"
+            ],
+            "downloadUrl": "https://github.com/asadali-gamedev/db-hadith/releases/download/v1.0.0/nasai.db"
+        },
+        {
+            "id": "maja",
+            "name": "Sunan Ibn Majah",
+            "nameArabic": "سنن ابن ماجه",
+            "author": "Imam Ibn Majah",
+            "file": "maja.db",
+            "sizeBytes": 21508096,
+            "sizeMB": "20.5 MB",
+            "languages": [
+                "arabic",
+                "urdu",
+                "english",
+                "hindi",
+                "roman"
+            ],
+            "tables": [
+                "hadees",
+                "hadees_languages",
+                "tbl_Kitab",
+                "language"
+            ],
+            "downloadUrl": "https://github.com/asadali-gamedev/db-hadith/releases/download/v1.0.0/maja.db"
+        },
+        {
+            "id": "mishkat",
+            "name": "Mishkat al-Masabih",
+            "nameArabic": "مشكاة المصابيح",
+            "author": "Al-Tabrizi",
+            "file": "mishkat.db",
+            "sizeBytes": 16048128,
+            "sizeMB": "15.3 MB",
+            "languages": [
+                "arabic",
+                "urdu",
+                "english",
+                "hindi",
+                "roman"
+            ],
+            "tables": [
+                "hadees",
+                "hadees_languages",
+                "tbl_Kitab",
+                "language"
+            ],
+            "downloadUrl": "https://github.com/asadali-gamedev/db-hadith/releases/download/v1.0.0/mishkat.db"
+        },
+        {
+            "id": "musnad",
+            "name": "Musnad Ahmad",
+            "nameArabic": "مسند أحمد",
+            "author": "Imam Ahmad ibn Hanbal",
+            "file": "musnad.db",
+            "sizeBytes": 75198464,
+            "sizeMB": "71.7 MB",
+            "languages": [
+                "arabic",
+                "urdu",
+                "english",
+                "hindi",
+                "roman"
+            ],
+            "tables": [
+                "hadees",
+                "hadees_languages",
+                "tbl_Kitab",
+                "language"
+            ],
+            "downloadUrl": "https://github.com/asadali-gamedev/db-hadith/releases/download/v1.0.0/musnad.db"
+        },
+        {
+            "id": "silsila",
+            "name": "Silsila Sahiha",
+            "nameArabic": "سلسلة الأحاديث الصحيحة",
+            "author": "Sheikh Albani",
+            "file": "silsila.db",
+            "sizeBytes": 9572352,
+            "sizeMB": "9.1 MB",
+            "languages": [
+                "arabic",
+                "urdu",
+                "english",
+                "hindi",
+                "roman"
+            ],
+            "tables": [
+                "hadees",
+                "hadees_languages",
+                "tbl_Kitab",
+                "language"
+            ],
+            "downloadUrl": "https://github.com/asadali-gamedev/db-hadith/releases/download/v1.0.0/silsila.db"
+        }
+    ]
+}

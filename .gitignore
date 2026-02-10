@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+functions/node_modules/
+
+# Firebase
+.firebase/
+*.log
+
+# Databases (will be in GitHub Releases)
+databases/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

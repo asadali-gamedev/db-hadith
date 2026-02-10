@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hadith API - Free Islamic Database Download</title>
+    <meta name="description"
+        content="Free API to download complete Hadith database collections including Bukhari, Muslim, Abu Dawood, and more.">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(90deg, #00d9ff, #00ff88);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            color: #8892b0;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .card h2 {
+            color: #00d9ff;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .endpoint {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            margin: 0.5rem 0;
+            font-family: 'Consolas', monospace;
+            font-size: 0.9rem;
+        }
+
+        .method {
+            color: #00ff88;
+            font-weight: bold;
+        }
+
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .book {
+            background: rgba(0, 217, 255, 0.1);
+            border: 1px solid rgba(0, 217, 255, 0.3);
+            padding: 1rem;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .book-name {
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .book-size {
+            color: #8892b0;
+            font-size: 0.85rem;
+            margin-top: 0.25rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>📚 Hadith API</h1>
+        <p class="subtitle">Free API to download complete Hadith database collections</p>
+
+        <div class="card">
+            <h2>🔗 API Endpoint</h2>
+            <div class="endpoint"><span class="method">GET</span> /api/books.json - Get all books with download URLs
+            </div>
+            <p style="margin-top: 1rem; color: #8892b0; font-size: 0.9rem;">
+                Fetch the JSON to get download URLs for all hadith databases.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>📖 Available Books</h2>
+            <div class="books-grid">
+                <div class="book">
+                    <div class="book-name">Sahih Bukhari</div>
+                    <div class="book-size">41.7 MB</div>
+                </div>
+                <div class="book">
+                    <div class="book-name">Sahih Muslim</div>
+                    <div class="book-size">30.1 MB</div>
+                </div>
+                <div class="book">
+                    <div class="book-name">Sunan Abu Dawood</div>
+                    <div class="book-size">28.1 MB</div>
+                </div>
+                <div class="book">
+                    <div class="book-name">Jami at-Tirmidhi</div>
+                    <div class="book-size">26.9 MB</div>
+                </div>
+                <div class="book">
+                    <div class="book-name">Sunan an-Nasai</div>
+                    <div class="book-size">23.0 MB</div>
+                </div>
+                <div class="book">
+                    <div class="book-name">Sunan Ibn Majah</div>
+                    <div class="book-size">20.5 MB</div>
+                </div>
+                <div class="book">
+                    <div class="book-name">Mishkat al-Masabih</div>
+                    <div class="book-size">15.3 MB</div>
+                </div>
+                <div class="book">
+                    <div class="book-name">Musnad Ahmad</div>
+                    <div class="book-size">71.7 MB</div>
+                </div>
+                <div class="book">
+                    <div class="book-name">Silsila</div>
+                    <div class="book-size">9.1 MB</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
